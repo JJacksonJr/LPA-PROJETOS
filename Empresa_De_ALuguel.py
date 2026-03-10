@@ -26,7 +26,7 @@ if Tipo_de_carro_Alugado == "carros populares":
 
 elif Tipo_de_carro_Alugado == "carros luxos":
 
-    Total_Pago_dias_2 = Quantos_dias_de_aluguel * 150
+    Total_Pago_dias_2 = Quantos_dias_de_aluguel * 150 
 
     if Quantos_KM_Pecorridos <= 200 :
 
