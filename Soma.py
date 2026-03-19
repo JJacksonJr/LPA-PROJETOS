@@ -1,9 +1,11 @@
-import os   
-os.system("cls|| clean")
+import os 
 
-valor1=int(input(" Digite um Numero: ") )
-valor2=int(input(" Digite um segundo Numero "))
+os.system("cls")
+Soma_total=0
 
-Soma=valor1+valor2
+for i in range (1,11):
+    ler_10=int(input("Digite um valor"))
 
-print(" A Soma entre ",valor1," e ",valor2,"é de ",Soma)
+    Soma_total+=ler_10
+
+print(" A Soma total é de ",Soma_total)
